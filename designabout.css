@@ -5,7 +5,7 @@ body {
     color: #562C0A;
 }
 
-.aboutbg {
+.bg_image {
     background: url('path/to/your/background-image.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header .logo {
     font-size: 24px;
     color: #FFD700;
@@ -54,6 +55,7 @@ header nav ul li a {
     justify-content: flex-end; /* Align content to the right */
     align-items: center;
     flex-grow: 1;
+}
 
 .content {
     background-color: #FFF3E0;
@@ -64,6 +66,8 @@ header nav ul li a {
     width: 100%;
 }
 
+.text {
+    padding: 20px;
 }
 
 h1 {
@@ -76,18 +80,6 @@ p {
     margin: 10px 0;
 }
 
-.image_section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.image_section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 footer {
     width: 100%;
     background-color: rgba(139, 69, 19, 0.8); /* Semi-transparent background */
@@ -96,4 +88,3 @@ footer {
     padding: 10px 0;
     font-size: 14px;
 }
-
