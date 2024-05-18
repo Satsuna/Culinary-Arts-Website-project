@@ -55,4 +55,11 @@ body {
     cursor: pointer;
     font-size: 2vh;
     width: 150px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #763C00;
+    color: white;
+    transition-duration: 0.4s;
 }
