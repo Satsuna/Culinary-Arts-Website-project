@@ -47,11 +47,12 @@ body {
     margin: 1% 10%;
     padding: 3vh;
     border: none;
-    border-radius: 30%;
+    border-radius: 30px;
     color: #763C00;
     background-color: white;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
     font-size: 2vh;
+    width: 150px;
 }
