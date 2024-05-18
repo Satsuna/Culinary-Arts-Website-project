@@ -3,7 +3,7 @@
 body {
     background-image: url(resources/cularts_bg.png);
     background-size: 90%;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x repeat-y;
     font-family: 'Kollektif', sans-serif;
 }
 
