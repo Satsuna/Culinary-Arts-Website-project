@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #562C0A;
+    background: url('aboutbg.jpg') no-repeat center center fixed;
 }
 
 .bg_image {
