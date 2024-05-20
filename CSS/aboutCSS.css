@@ -15,7 +15,7 @@ body {
 
 header {
     width: 100%;
-    background-color: rgba(139, 69, 19, 0.8); /* Semi-transparent background */
+    background-color: rgba(139, 69, 19, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,8 @@ header .logo {
 }
 
 header .logo .logo-img {
-    height: 40px; /* Adjust the height as needed */
-    margin-right: 10px; /* Adjust the space between the image and text */
+    height: 40px;
+    margin-right: 10px;
 }
 
 header nav ul {
@@ -71,7 +71,7 @@ header nav ul li a {
     width: 100%;
     padding: 40px 20px;
     display: flex;
-    justify-content: flex-end; /* Align content to the right */
+    justify-content: flex-end;
     align-items: center;
     flex-grow: 1;
 }
@@ -81,7 +81,7 @@ header nav ul li a {
     padding: 10px 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 500px; /* Make the box smaller */
+    max-width: 500px;
     width: 50%;
     position: relative;
     right: 100px;
@@ -105,7 +105,7 @@ p {
 
 footer {
     width: 100%;
-    background-color: rgba(139, 69, 19, 0.8); /* Semi-transparent background */
+    background-color: rgba(139, 69, 19, 0.8);
     color: #FFD700;
     text-align: center;
     padding: 10px 0;
