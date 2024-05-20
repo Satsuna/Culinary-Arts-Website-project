@@ -3,6 +3,7 @@ body {
     margin: 50;
     padding: auto;
     color: #8B4513;
+    background-color: #8B4513;
 }
 
 .bg_image {
@@ -23,11 +24,10 @@ header {
 }
 
 .header-container {
+    margin-top: 50px;
     width: 90%;
-    max-width: 1200px;
     background-color: #efd1a2;
-    position: relative;
-    top: 30px;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,4 +110,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
+    position: fixed;
+    bottom: 0;
 }

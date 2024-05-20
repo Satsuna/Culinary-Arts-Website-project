@@ -8,7 +8,7 @@ body {
 }
 
 .homepage_bg{
-    background-color: #E35835;
+    background-color: #B12B24;
     margin: 3% 5%;
     border-radius: 3%;
     padding: 2%;
@@ -18,8 +18,8 @@ body {
 
 .stishs {
     text-align: center;
-    font-size: 5px;
-    color: #763C00;
+    font-size: 7px;
+    color: white;
 }
 
 .title {
