@@ -1,0 +1,113 @@
+body {
+    font-family: 'Kollektif', sans-serif;
+    margin: 50;
+    padding: auto;
+    color: #8B4513;
+}
+
+.bg_image {
+    background: url('resources/aboutbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(139, 69, 19, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #efd1a2;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'bodoni', 'Montserrat', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 24px;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+header .logo .logo-img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the space between the image and text */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #8B4513;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about_bg {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content {
+    background-color: #FFF3E0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px; /* Make the box smaller */
+    width: 50%;
+    position: relative;
+    right: 100px;
+}
+
+.text {
+    padding: 10px -50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #8B4513;
+    margin: 0 0 20px 0;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px 50px;
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(139, 69, 19, 0.8); /* Semi-transparent background */
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
