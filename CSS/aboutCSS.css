@@ -3,37 +3,25 @@ body {
     margin: 50;
     padding: auto;
     color: #8B4513;
-    background-color: #8B4513;
-}
-
-.bg_image {
-    background: url('resources/aboutbg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: #a86d6a;
 }
 
 header {
     width: 100%;
-    background-color: rgba(139, 69, 19, 0.8);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
 }
 
 .header-container {
-    margin-top: 50px;
-    width: 90%;
-    background-color: #efd1a2;
+    width: 90vw;
+    background-color: #B12B24;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 4.3%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header .logo {
@@ -41,7 +29,7 @@ header .logo {
     align-items: center;
     font-family: 'bodoni', 'Montserrat', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 24px;
-    color: #8B4513;
+    color: white;
     font-weight: bold;
 }
 
@@ -62,33 +50,25 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #8B4513;
+    color: #EF8535;
     text-decoration: none;
     font-size: 18px;
 }
 
-.about_bg {
-    width: 100%;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1;
-}
+
 
 .content {
-    background-color: #FFF3E0;
-    padding: 10px 10px;
+    background-color: #B12B24;
+    padding: 120px 240px;
+    top: 60px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
-    width: 50%;
+    width: 100%;
     position: relative;
-    right: 100px;
+    box-sizing: border-box;
 }
 
 .text {
-    padding: 10px -50px;
+    background-color: white;
 }
 
 h1 {
@@ -101,15 +81,4 @@ p {
     margin: 10px 0;
     padding: 5px 50px;
 
-}
-
-footer {
-    width: 100%;
-    background-color: rgba(139, 69, 19, 0.8);
-    color: #FFD700;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-    position: fixed;
-    bottom: 0;
 }
