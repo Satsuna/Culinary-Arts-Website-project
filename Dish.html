@@ -3,8 +3,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Culinary Arts</title>
-        <link rel="stylesheet" href="CSS/mainDishCSS.css">
+        <link rel="stylesheet" href="CSS/DishCSS.css">
         <link href="https://fonts.cdnfonts.com/css/kollektif" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -12,24 +13,24 @@
             <div class="sidebar">
                 <ul>
                     <li><img src="CSS/resources/5.png"></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="">Contacts</a></li>
-                    <li><a href="">Main Dish</a></li>
-                    <li><a href="">Side Dish</a></li>
-                    <li><a href="">Dessert</a></li>
+                    <li><a href="Dish.html">Main Dish</a></li>
+                    <li><a href="#" onclick="sideDishOnClick()">Side Dish</a></li>
+                    <li><a href="#" onclick="dessertOnClick()">Dessert</a></li>
                 </ul>
-                <img class="logo" src="CSS/resources/8.png">
+                <img id="logoID" class="logo" src="CSS/resources/8.png">
             </div>
 
                 <div class="content">
                     <div class="pic1">
-                        <img src="CSS/resources/placeholder.png" alt="pic1">
+                        <img src="CSS/resources/placeholder.png" alt="pic1" id="pic1">
                     </div>
                     <div class="pic2">
-                        <img src="CSS/resources/placeholder.png" alt="pic2">
+                        <img src="CSS/resources/placeholder.png" alt="pic2" id="pic2">
                     </div>
                     <div class="pic3">
-                        <img src="CSS/resources/placeholder.png" alt="pic3">
+                        <img src="CSS/resources/placeholder.png" alt="pic3" id="pic3">
                     </div>
                 </div>
             </div>
