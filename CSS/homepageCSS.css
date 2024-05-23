@@ -1,71 +1,75 @@
 @import url('https://fonts.cdnfonts.com/css/kollektif?styles=28735');
 
 body {
-    background-image: url(resources/cularts_bg.png);
+    background-image: url(resources/home\ page.png);
     background-size: 90%;
-    background-repeat: repeat-x repeat-y;
+    background-repeat: no repeat;
     font-family: 'Kollektif', sans-serif;
 }
 
-.homepage_bg{
-    background-color: #B12B24;
+.layout {
+    background-color: #A62424;
+    background-image: url(resources/2.png);
+    border-radius: 5%;
+    display: grid;
+    grid-template-areas:
+       'header header header header header header'
+       'left left right right right right';
     margin: 3% 5%;
-    border-radius: 3%;
     padding: 2%;
     width: auto;
-    height: 450px;
-}
-
-.stishs {
-    text-align: center;
-    font-size: 7px;
-    color: white;
-}
-
-.title {
-    color: white;
-    font-size: 60px;
-}
-
-.pic1 {
-    float: right;
-    transform: scaleX(-1);
     height: auto;
-    width: 600px;
 }
 
-.desc {
-    color: white;
-    font-size: 23px;
+.item1 {
+    grid-area: header;
+    text-align: center;
+    a {color: #090A0E; text-decoration: none;}
+    font-size: 14px;
 }
 
-.descColor {
-    color: #763C00;
+.item2 {
+    grid-area: left;
+    color: #F2EED8;
+    h1 {font-size: 75px;}
+    p {font-size: 18px;}
+    button {
+        margin: 1% 10%;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: #F2EED8;
+        color: #090A0E;
+        font-size: 14px;
+        border: none;
+        font-family: 'Kollektif', sans-serif;
+    }
+    padding-left: 250px;
 }
 
 .button {
-    margin: 1% 10%;
-    padding: 15px;
-    border: none;
-    border-radius: 30px;
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    width: 200px;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: #760504;
-    color: white;
+    color: #F2EED8;
     transition-duration: 0.4s;
 }
 
-@media only screen and (max-width: 1100px) {
-    .pic1 {
-        display: none;
+.item3 {
+    grid-area: right;
+    text-align: left;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .item2 {
+        margin-left: -180px;
+        margin-top: -60px;
+    }
+    .item3 img{
+        width: 95%;
+        height: auto;
     }
 }
