@@ -73,3 +73,15 @@ body {
         height: auto;
     }
 }
+
+@media only screen and (max-width: 1366px) {
+    .item2 {
+	margin-left: -200px;
+	margin-top: -80px;
+    }
+    .item3 img {
+	width: 90%;
+	height: auto;
+	position: relative;
+    }
+}
