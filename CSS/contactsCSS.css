@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/kollektif?styles=28735');
+
+body {
+    background-image: url(resources/home\ page.png);
+    background-size: 90%;
+    background-repeat: no repeat;
+    font-family: 'Kollektif', sans-serif;
+    a {text-decoration: none;}
+}
+
+.layout {
+    display: grid;
+    grid-template-areas:
+       'logo header header header header header'
+       'image image image main main main';
+    margin: 3% 5%;
+    padding: 2%;
+    width: auto;
+    height: auto;
+    row-gap: 30px;
+}
+
+.item {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: #A62424;
+    grid-area: logo;
+    text-align: left;
+    padding: 10px;
+}
+
+.item1 {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: #A62424;
+    grid-area: header;
+    p {text-align: right;}
+    a {color: #EF8535;}
+    font-size: 16.9px;
+    padding: 10px;
+}
+
+.items{
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: #A62424;
+    grid-area: image;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.item2 {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: #A62424;
+    grid-area: main;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    color: #F2EED8;
+    button {
+        margin: 1% 10%;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: #EF8535;
+        color: #090A0E;
+        font-size: 14px;
+        border: none;
+        font-family: 'Kollektif', sans-serif;
+    }
+    p {font-size: 19px;}
+    h4 {text-align: right; padding-right: 30px;}
+}
+
+input[type=text] {
+    background-color: #F2EED8;
+    color: #090A0E;
+    border-style: none;
+}
+
+input[type=message] {
+    background-color: #F2EED8;
+    color: #090A0E;
+    border-style: none;
+    width: 500px;
+    height: 200px;
+}
+
+input[type=eadd] {
+    background-color: #F2EED8;
+    color: #090A0E;
+    border-style: none;
+    width: 500px;
+}
+
+.button:hover {
+    background-color: #760504;
+    color: #EF8535;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (max-width: 1280px) {
+    .items .Seven {
+        margin-left: -5px;
+    }
+    .items .Six {
+        width: 85%;
+        height: auto;
+    }
+
+    input[type=message] {
+        width: 300px;
+    }
+    
+    input[type=eadd] {
+        width: 300px;
+    }
+}
